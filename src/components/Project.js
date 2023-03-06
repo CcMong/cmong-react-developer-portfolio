@@ -1,13 +1,13 @@
 
-function Project(props) {
+function Project({ title, image, description, url}) {
 
     return (
 
-        <div class="card" style="width: 18rem;">
-            <img src={props.imgSrc} class="card-img-top" alt={props.title} />
-            <div class="card-body">
-                <h5 class="card-title">{props.title}</h5>
-                <p class="card-text">{props.desc}</p>
+        <div className="card">
+            <img src={image} class="card-img-top" alt={title} />
+            <div className="card-body">
+                <h5 className="card-title">{title}</h5>
+                <p className="card-text">{description}</p>
                 <a href="google.com" class="btn btn-primary">Go somewhere</a>
             </div>
         </div>

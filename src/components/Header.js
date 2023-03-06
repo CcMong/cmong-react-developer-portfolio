@@ -17,7 +17,7 @@ function Header() {
                     </li>
 
                     <li className = "nav-links">
-                        <NavLink to="/" end>Project Portfolio</NavLink>
+                        <NavLink to="/portfolio" end>Project Portfolio</NavLink>
                     </li>
 
                     <li className = "nav-links">

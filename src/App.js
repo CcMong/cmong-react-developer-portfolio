@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Home from "./components/webpages/Home";
 import About from "./components/webpages/About";
 import Portfolio from './components/webpages/Portfolio';
+import Contact from "./components/webpages/Contact";
 
 
 

@@ -1,3 +1,5 @@
+import "../style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Project({ title, image, description, url}) {
 
